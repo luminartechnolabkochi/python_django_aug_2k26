@@ -58,7 +58,7 @@
             - and logical and
             - or logical or
             - not logical not
-        -Membership opertor
+        -Membership opertor 
             def: to chk value exist in a sequence 
                 -sequence [string,list,set,tuple,dictionary] 
             - in
@@ -145,3 +145,8 @@
             
             else:
                 print("zero")
+
+    -- match....case
+
+
+

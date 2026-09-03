@@ -1,0 +1,24 @@
+Python OOP Assessment – Expense Tracker CRUD Simulation
+🎯 Objective
+
+Create a Django CRUD-like Expense Tracker simulation using Python OOP concepts.
+
+You are not required to use Django, DRF, or a database.
+
+Use:
+
+Python Classes & Objects
+Methods
+Lists
+Conditional statements
+Loops
+Dictionary/List operations
+Basic exception handling where required
+
+The program should simulate the following CRUD operations:
+
+POST → Add Expense
+GET → List Expenses
+GET /id → Retrieve One Expense
+PUT → Update Expense
+DELETE → Delete Expense
