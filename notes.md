@@ -147,6 +147,130 @@
                 print("zero")
 
     -- match....case
+### looping
+
+    -- execute set of statements repeated number of times
+    -- while loop (if range is unknown)
+        
+        syntax:
+            initialization
+            while(condition):
+                statement1
+                statement2
+                incr|decr
+        Eg:
+            i = 1
+
+            while(i<=10):
+
+                print(i)
+
+                i+=1
+                
+    --- for loop (if range is known)
+
+        syntax:
+
+            for i in range(start,stop,step):
+
+                statements
+
+        Eg:
+
+            for i in range(1,11):
+
+                print(i)
 
 
+### programming techniques
 
+    1)procedural programming | function
+
+    2)object oriented programming
+
+
+# Functions 
+
+## there are two types of functions 
+        
+        - builtin functions 
+
+            > print(message,end="\n")   # display message in console
+            
+            > range(start,stop,step=1) # return squence of numbers from start to stop
+            
+            > max(sequnce) # return maximum from sequence
+            
+            > min(sequence) # return minimum from sequence
+            
+            > len(obj)  # return length of object
+            
+            > input(message) => return value from user as string
+
+        ## userdefined functions
+
+           - we are defining our own functions
+
+        ##syntax 
+
+            def function_name(p1,p2,,,):
+
+                function defnition
+
+
+            function_name(p1,p2,,,)
+
+        eg:
+
+            def say_hello():
+
+                print("HEllO")
+
+            say_hello()
+
+
+            def say_hi():
+
+                print("HAI")
+
+            say_hi()
+
+
+        # function with parameter
+
+            def function_name(p1,p2):
+
+                function defnition
+
+            function_name(p1_value,p2_value)
+
+            Eg:
+
+                def add_numbers(n1,n2):
+                    result = n1+n2
+                    print(result)
+
+                add_numbers(100,200)
+
+## function with return value
+
+```
+def function_name(p1,p2):
+
+    function body
+
+    return value
+
+result = function_name(arg1,arg2)
+
+EG:
+
+def add_numbers(n1,n2):
+
+    result = n1+n2
+
+    return result
+
+add_result=add_numbers(100,200)
+print(add_result)
+```

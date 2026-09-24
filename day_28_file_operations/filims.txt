@@ -1,0 +1,6 @@
+thudarum,malayalam,8.5
+arm,malayalam,9
+abcd,malayalam,9
+kgf,kannada,9
+bahubali,kanada,9
+kalki,hindi,9.5
